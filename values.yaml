@@ -54,7 +54,7 @@ nodepools:
   taints: {}
   quantity: 3
   paused: false
-  name: control-plane-prod
+  name: control-plane-iam
   ami: ami-042cd2fd384327f78
   deviceName: /dev/sda1
   encryptEbsVolume: false
