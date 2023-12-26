@@ -11,7 +11,7 @@ diff:
    - apiVersion: provisioning.cattle.io/v1
      kind: Cluster
      namespace: fleet-default
-     name: rke2-demo-cluster
+     name: rke2-iam-cluster
      operations:
      - {"op": "remove", "path": "/spec/rkeConfig/machinePools"}
      - {"op": "remove", "path": "/spec/rkeConfig/registries/configs/rgcrprod.azurecr.us"}

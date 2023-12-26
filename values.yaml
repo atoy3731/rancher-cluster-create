@@ -1,12 +1,12 @@
 cloudprovider: amazonec2
-cloudCredentialSecretName: cattle-global-data:cc-27qqv
+cloudCredentialSecretName: cattle-global-data:just-region
 cluster:
   annotations: {}
   labels:
     location: aws
     carbide-public: true
     airgapdocs: deploy
-  name: rke2-demo-cluster
+  name: rke2-iam-cluster
 kubernetesVersion: v1.26.8+rke2r1
 cni: canal
 system_default_registry: rgcrprod.azurecr.us
@@ -77,7 +77,7 @@ nodepools:
   - "22"
   privateAddressOnly: false
   requestSpotInstance: false
-  tags: Owner,pbrooks,KeepRunning,true
+  tags: Owner,atoy,KeepRunning,true
   retries: 5
   rootSize: 20
   sshUser: ubuntu
