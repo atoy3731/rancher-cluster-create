@@ -2,7 +2,7 @@ defaultNamespace: default
 helm:
   repo: https://atoy3731.github.io/cluster-charts/
   chart: cluster-template
-  version: 0.0.8
+  version: 0.0.9
   # releaseName: cluster-template-prod-green
   valuesFiles:
     - values.yaml
