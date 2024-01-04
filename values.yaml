@@ -78,7 +78,7 @@ nodepools:
   - "22"
   privateAddressOnly: false
   requestSpotInstance: false
-  tags: Owner,atoy,KeepRunning,true
+  tags: Owner,atoy,KeepRunning,false
   retries: 5
   rootSize: 20
   sshUser: ubuntu
